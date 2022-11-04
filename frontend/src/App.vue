@@ -2,7 +2,7 @@
   <div>
     <div class="todoListContainer">
       <div class="heading">
-        <h2 id="title">Todo List</h2>
+        <h2 id="title">Todo List hot</h2>
         <add-item-form @itemChanged="getItems()" />
       </div>
       <list-view :items="items" @reloadList="getItems()" />
